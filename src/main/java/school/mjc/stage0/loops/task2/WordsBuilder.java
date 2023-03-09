@@ -4,7 +4,7 @@ public class WordsBuilder {
     public void buildPhrase(char... chars) {
            String s = "";
         int i = 0;
-        while (i < chars.length && chars[i] != ' ') {
+        while (i < chars.length) {
             s = s + chars[i];
             i++;
         }
