@@ -2,9 +2,11 @@ package school.mjc.stage0.loops.task2;
 
 public class FactorialNumbers {
     public void printFactorialRow(int printToInclusive) {
-    int i = 1;
+      int i = 1;
+        int q = 1;
         while (i <= printToInclusive) {
-            System.out.println(i);
+            q = q *i;
+            System.out.println(q);
             i++;
         }
     }
